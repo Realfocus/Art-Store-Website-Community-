@@ -92,8 +92,11 @@ h2 {
 
     .hidden {
         display: none;
-    }
 
+    }
+.painting:hover  .hidden {
+display: block;
+}
 .featured-artists {
     background-position: center bottom;
     background-color: #d6d3d3;
