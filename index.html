@@ -4,57 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Art Store</title>
-    <link rel="stylesheet" href="interface.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
+
+    
+
+
 <body>
+    <div class="logo">
+        <img src="logo-cultured-kid.jpg" class="logo" alt="logop">
+    </div>
+
     <header>
         <nav>
             <ul>
-                <li><a href="#">Paintings</a></li>
-                <li><a href="#">Drawings</a></li>
-                <li><a href="#">Sculpture</a></li>
-                <li><a href="#">Artists</a></li>
-                <li><a href="#">Cart</a></li>
+                <li> Paintings</li>
+                <li> Drawings</li>
+                <li> Sculpture</li>
+                <li> Artists</li>
+              
+                <li> Cart </li>
             </ul>
         </nav>
     </header>
-    
+   
     <main>
+        <div class="arr">
+            <img src="arr.jpg" class="arr" alt="arrow"> 
+        </div>
+        
         <h1>Featured Paintings</h1>
         <section class="featured-paintings">
+           
             <div class="painting">
                 <img src="Painting.jpg" alt="Wallowing Breeze">
                 <p><strong> Wallowing Breeze </strong><br>Hostile Richards</p>
+             <div class="hidden">   
+                <p>Oil on canvas, 2008</p>
+                <p>26 in 23 in</p>
+                <img src="cart image.jpg" alt="cart logo">
+            </div>
             </div>
             <div class="painting">
-                <img src="Painting (1).jpg" alt="I Resistance">
-                <p>I Resistance<br>Ria Arante</p>
+                <img src="Painting (1).jpg" alt="I Resistance" class="responsive">
+                <p><strong>Resistance</strong> <br>Ria Arante</p>
             </div>
             <div class="painting">
                 <img src="Painting 2.jpg" alt="Warm Basket">
-                <p>Warm Basket<br>Flora Powers</p>
+                <p><strong>J Resistance</strong> <br>Flora Powers</p>
             </div>
             <div class="painting">
                 <img src="Painting (2).jpg" alt="The Vonnegut">
-                <p>The Vonnegut<br>Ria Arante</p>
+                <p><strong>Warm BasketS</strong> <br>Ria Arante</p>
+            
             </div>
         </section>
-        
-        <h2>Featured Artists</h2>
-        <section class="featured-artists">
-            <div class="artist">
-                <img src="Rectangle.jpg" alt="Miker Lambert">
-                <p>Miker Lambert<br>Painter, Texas</p>
+            <div class="featured-artists">
+                <h2>Featured Artists</h2>
+            <!--this is the art page  -->
+                <div class="art">
+                <div class="artist">
+                    <img src="Rectangle.jpg" alt="Mike Lambert" class="artist-image">
+                    <div class="artist-info">
+                        <h3>Mike Lambert</h3>
+                        <p>Painter, Texas</p>
+                    </div>
+                </div>
+                <div class="artist">
+                        <img src="Rectangle (2).jpg" alt="Eugenia Cohen" class="artist-image">
+                        <div class="artist-info"> <h3>Eugenia Cohen</h3>
+                            
+                        <p>Painter, Amsterdam</p>
+                        </div>
+                </div>
+            
+                <div class="artist">
+                    <img src="Rectangle (3).jpg" alt="Jenny Hubbard" class="artist-image">
+                    <div class="artist-info">
+                        <h3>Jenny Hubbard</h3>
+                        <p>Painter, California</p>
+                    </div>
+                </div>
             </div>
-            <div class="artist">
-                <img src="Rectangle (2).jpg" alt="Eugenia Cohen">
-                <p>Eugenia Cohen<br>Painter, Amsterdam</p>
+                </div>
             </div>
-            <div class="artist">
-                <img src="Rectangle (3).jpg" alt="Jenny Hubbard">
-                <p>Jenny Hubbard<br>Painter, California</p>
-            </div>
-        </section>
     </main>
     
     <footer>

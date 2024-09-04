@@ -8,24 +8,22 @@
 /* Body and main styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: white;
     color: #333;
 }
 
 header {
-    background: #fff;
-    padding: 1rem;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
 }
 
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content: right;
 }
 
 nav ul li {
-    margin: 0 15px;
+    margin: 0 10px;
 }
 
 nav ul li a {
@@ -33,6 +31,25 @@ nav ul li a {
     color: #3498db;
     font-weight: bold;
 }
+.logo {
+    
+        padding: 0 29px;
+        margin-left: 60px;
+        margin-top: 30px;
+        height: 20px;
+      justify-content: center;
+}
+
+.arr {
+    justify-content: right;
+    padding-top: 10px;
+    padding-left: 600px;
+    }
+    
+.responsive {
+        max-width: 100%;
+        height: auto;
+    }
 
 /* Main section styles */
 main {
@@ -40,16 +57,18 @@ main {
 }
 
 h1 {
-    text-align: center;
+    text-align: left;
     margin-bottom: 2rem;
+    padding-left: 170px;
 }
 
 h2 {
     margin-top: 2rem;
     margin-bottom: 1rem;
+    padding-left: 170px;
 }
 
-/* Featured paintings styles */
+
 .featured-paintings {
     display: flex;
     justify-content: space-around;
@@ -69,26 +88,71 @@ h2 {
 .painting img {
     max-width: 100%;
     border-radius: 5px;
-}
+    }
 
-/* Featured artists styles */
+    .hidden {
+        display: none;
+    }
+
 .featured-artists {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    background-position: center bottom;
+    background-color: #d6d3d3;
+    margin: 20px 0; 
+    
 }
 
+.featured-artists h2 {
+    font-size: 24px; 
+    margin-bottom: 15px; 
+    padding-left: 20px;
+}
+.art{
+    display: flex;
+    border-color: gray;
+}
 .artist {
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 10px;
+    margin: 1rem;
     background: #fff;
     border: 1px solid #ddd;
     border-radius: 5px;
-    width: 150px;
+    width: 250px;
     margin: 1rem;
     text-align: center;
     padding: 1rem;
 }
 
-/* Footer styles */
+.artist-image  {
+    display: flex;
+    width: 80px; 
+    height: auto; 
+    border-radius: 4px; 
+    margin-right: 50px; 
+    max-width: 100px;
+    
+}
+
+.artist-info {
+    display: flex;
+    flex-direction: column; 
+}
+
+.artist-info h3 {
+    margin: 0; 
+    font-size: 18px; 
+}
+
+.artist-info p {
+    margin: 100; 
+    font-size: 14px; 
+    color: #666; 
+}
+
+
+
+
 footer {
     text-align: center;
     padding: 1rem;
