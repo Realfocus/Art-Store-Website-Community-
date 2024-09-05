@@ -101,7 +101,12 @@ display: block;
     background-position: center bottom;
     background-color: #d6d3d3;
     margin: 20px 0; 
-    
+    }
+.hide {
+    display: flex;
+}
+.artist:hover .hide {
+    display: none;
 }
 
 .featured-artists h2 {
@@ -152,8 +157,6 @@ display: block;
     font-size: 14px; 
     color: #666; 
 }
-
-
 
 
 footer {
