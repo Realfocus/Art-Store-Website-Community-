@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Detail Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            display: flex;
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .image-gallery {
+            flex: 1;
+            margin-right: 20px;
+        }
+        .main-image {
+            width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+        }
+        .thumbnail {
+            width: 80px;
+            height: auto;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+        .details {
+            flex: 1;
+        }
+        .details h1 {
+            font-size: 24px;
+            margin: 0;
+            text-align: left;
+        }
+        .details h2 {
+            font-size: 18px;
+            color: #555;
+        }
+        .price {
+            font-size: 24px;
+            color: #333;
+            margin: 10px 0;
+        }
+        .button {
+            background-color: black;
+            color: white;
+            padding: 10px 128px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #777;
+        }
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+            .image-gallery {
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>    
+        <div class="logo">
+            <img src="logo-cultured-kid.jpg" class="logo" alt="logop">
+        </div>
+        <nav>
+            <ul>
+                <li> Paintings</li>
+                <li> Drawings</li>
+                <li> Sculpture</li>
+                <li> Artists</li>
+                <li> Cart </li>
+            </ul>
+        </nav>
+    </header>
+            
+   <main>
+        
+    <div class="container">
+        <div class="image-gallery">
+            <img src="Painting.jpg" alt="Resistance" class="main-image">
+            <div>
+                <img src="Painting (1).jpg" alt="Resistance" class="thumbnail">
+                <img src="Painting (2).jpg" alt="warm basket" class="thumbnail">
+                <img src="Painting 2.jpg" alt="J Resistance" class="thumbnail">
+            </div>
+            <div>
+                <a href="#">View in a room</a> | <a href="#">Share</a>
+            </div>
+        </div>
+        <div class="details">
+            <h1>Wallowing Breeze</h1>
+            <h2>Hettie Richards</h2>
+         
+            <p style="color: gray;"> Oil on canvas, 2008<br>Gallery wrap canvas<br>26 in x 23 in</p>
+            <p style="color: gray;"> <br>Dynamic and elusive abstraction and texture. Plays<br>  between the lines of chaos and serenity. Perfect<br> fit for modern and contemporary styled interiors.</br></p>
+            <hr />
+            <p class="price"><strong>$620</strong></p>
+            <p>Ships from New York, NY, USA<br>Estimated to ship in 3 - 7 days within USA</p>
+            <button class="button">ADD TO CART</button>
+            <div class="footer">Taxes and shipping fees will apply upon checkout</div>
+        </div>
+    </div>
+</body>
+</html>
